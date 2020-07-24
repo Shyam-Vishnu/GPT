@@ -1,0 +1,9 @@
+
+!git clone https://github.com/graykode/gpt-2-Pytorch
+%cd gpt-2-Pytorch
+!curl --output gpt2-pytorch_model.bin https://s3.amazonaws.com/models.huggingface.co/bert/gpt2-pytorch_model.bin
+!pip install -r requirements.txt
+
+
+
+!python main.py --text "My name is Phaneendra and I am"
